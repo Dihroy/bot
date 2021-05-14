@@ -4,7 +4,7 @@ from dotenv import load_dotenv, find_dotenv
 # Loading .env variables
 load_dotenv(find_dotenv())
 
-TELEGRAM_TOKEN = os.getenv("1807213688:AAGrnnIs9ITW1epqFZ-HWZekR9hU2L-rm-o")
+TELEGRAM_TOKEN = os.getenv("1807243688:AAGrnnIs9ITW1epqFZ-HWZekR9hU2L-rm-o")
 if TELEGRAM_TOKEN is None:
     raise Exception("Please setup the .env variable TELEGRAM_TOKEN.")
 
